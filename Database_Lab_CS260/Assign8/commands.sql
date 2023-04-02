@@ -12,5 +12,5 @@ insert into user values(NULL,"fname10", "lname10", "name10@gmail.com", "password
 insert into user values(NULL,"fname11", "lname11", "name11@gmail.com", "password11");
 insert into user values(NULL,"fname12", "lname12", "name12@gmail.com", "password12");
 insert into user values(NULL,"Anuj", "Sharma", "anuj@gmail.com", "1234567890");
-delete from user where id = 1;
-delete from user where id > 2 and id < 13;
+delete from user where ID = 1;
+delete from user where ID > 2 and ID < 13;
