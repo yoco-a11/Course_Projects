@@ -1,0 +1,16 @@
+create table user(ID int(10) unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY, fname varchar(255), lname varchar(255), email varchar (255), password varchar(20));
+insert into user values(NULL,"fname1", "lname1", "name1@gmail.com", "password1");
+insert into user values(NULL,"fname2", "lname2", "name2@gmail.com", "password2");
+insert into user values(NULL,"fname3", "lname3", "name3@gmail.com", "password3");
+insert into user values(NULL,"fname4", "lname4", "name4@gmail.com", "password4");
+insert into user values(NULL,"fname5", "lname5", "name5@gmail.com", "password5");
+insert into user values(NULL,"fname6", "lname6", "name6@gmail.com", "password6");
+insert into user values(NULL,"fname7", "lname7", "name7@gmail.com", "password7");
+insert into user values(NULL,"fname8", "lname8", "name8@gmail.com", "password8");
+insert into user values(NULL,"fname9", "lname9", "name9@gmail.com", "password9");
+insert into user values(NULL,"fname10", "lname10", "name10@gmail.com", "password10");
+insert into user values(NULL,"fname11", "lname11", "name11@gmail.com", "password11");
+insert into user values(NULL,"fname12", "lname12", "name12@gmail.com", "password12");
+insert into user values(NULL,"Anuj", "Sharma", "anuj@gmail.com", "1234567890");
+delete from user where id = 1;
+delete from user where id > 2 and id < 13;
